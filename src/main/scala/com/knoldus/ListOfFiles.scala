@@ -10,7 +10,7 @@ import scala.concurrent.ExecutionContext.Implicits.global
 object ListOfFiles {
 
   def main(args: Array[String]): Unit = {
-    val dir = "/home/knoldus/Folder1"
+    val dir = "/home/knoldus/multi-threadings/Folder1"
     val dirObj = new File(dir)
     if (dirObj.exists && dirObj.isDirectory) {
       val name = dirObj.getName
